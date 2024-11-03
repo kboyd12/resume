@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.29)  3 NOV 2024 09:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.29)  3 NOV 2024 10:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -236,18 +236,18 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (27.30809pt too wide) in paragraph at lines 83--88
+Overfull \hbox (27.30809pt too wide) in paragraph at lines 83--89
 [][] 
  []
 
 
-./resume.tex:115: LaTeX Error: \begin{list} on input line 42 ended by \end{document}.
+./resume.tex:116: LaTeX Error: \begin{list} on input line 42 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 \end{document}
+l.116 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -273,7 +273,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  72i,6n,79p,500b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></usr/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/share/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on resume.pdf (2 pages, 83704 bytes).
+Output written on resume.pdf (2 pages, 83817 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1730645554.9266 "resume.tex" "resume.pdf" "resume" 1730645555.15897 2
+["pdflatex"] 1730646104.21682 "resume.tex" "resume.pdf" "resume" 1730646104.44772 2
   "/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_ne3tkd.enc" 1727349926 2969 d0ec9694be18bdfa11e2a0f61a62c0cc ""
   "/usr/share/texmf-dist/fonts/enc/dvips/ebgaramond/ebg_qn2lct.enc" 1727349926 2945 f4c9aa1a657d71d9b432a32e633f5416 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1727349926 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -55,9 +55,9 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1727659022.95425 5312047 b07fcd2a9090df96fc745b92a3db793b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1727658968 7112994 7bec3479f26ef39f9e8abf3fa636da8f ""
-  "resume.aux" 1730645555.12217 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "resume.aux" 1730646104.41096 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
   "resume.cls" 1714837282.27152 6088 430b503d863c9c05e37b31fbac2ad21a ""
-  "resume.tex" 1730645553.09215 7625 bead12f4fc6158c53e8dde31f1c0af43 ""
+  "resume.tex" 1730646104.18429 7700 738ffe4082c4e30b04656a84c4a918c3 ""
   (generated)
   "resume.aux"
   "resume.log"
