@@ -12,9 +12,9 @@
 % You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
 % Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
 
-\address{Buford, Georgia} % A secondary address (optional)
+\address{Flowery Branch, Georgia} % A secondary address (optional)
 
-\address{(770)~$\cdot$~633~$\cdot$~4258 \\ ktboyd43@gmail.com} % Contact information
+\address{(770) 633-4258 \\ ktboyd43@gmail.com} % Contact information
 
 %----------------------------------------------------------------------------------------
 
@@ -26,77 +26,34 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Experience}
-    \begin{rSubsection}{GRVTY Corp.}{January 2025 - Present}{Geospatial Engineer}{Remote}
-        \item Developed a target and custody fusion engine stack processing thousands of observations per second from multiple disparate intelligence sources across classified networks, providing analysts an automated and scalable solution for Air Force 480th ISR Wing, Air Force Combat Command, and Air Force Research Laboratory.
-        \item Built distributed tracking system utilizing advanced filtering and data association techniques including particle/Kalman filters, Joint Probabilistic Data Association, and multiple-hypothesis tracking for simultaneous multi-target tracking in near real-time.
-        \item Implemented scalable tech stack using Kafka for data ingestion, FastAPI for API services, and Kubernetes for deployment management, ensuring fault tolerance and high availability.
-        \item Delivered contextual and spatio-temporal correlations to users through real-time processing capabilities, enhancing intelligence analysis workflows.
+    \begin{rSubsection}{GRVTY Corp.}{January 2025 - Present}{Software Engineer}{Remote}
+        \item Developed AI-powered DevOps review pipeline using Anthropic Claude API for automated code review on pull requests, implementing comprehensive prompt engineering and error handling strategies; deployed organization-wide improving code quality and reducing review cycle time by 60\%.
+        \item Built custom Model Context Protocol (MCP) servers enabling seamless integration between LLM agents and intelligence platform services, providing automated data retrieval, analysis workflows, and tool orchestration for AI-powered intelligence applications.
+        \item Designed and developed a target and custody fusion platform processing 1000+ datapoints per minute from multiple disparate intelligence sources across AWS GovCloud (JWICS) and GCP classified networks, improving analyst workflow capabilities by 500\% for Air Force 480th ISR Wing, Air Force Combat Command, and Air Force Research Laboratory.
+        \item Built developer-facing APIs and internal tools using FastAPI enabling analyst teams to rapidly deploy custom intelligence workflows, reducing time-to-deployment for new analytical capabilities from weeks to hours.
+        \item Architected scalable cloud-native platform using Kafka for data ingestion, Python microservices for data processing, and Kubernetes for orchestration and deployment, ensuring fault tolerance and high availability across classified environments.
+        \item Established robust CI/CD pipeline using Jenkins with automated security scanning (Anchore, OWASP, SonarQube) and comprehensive testing strategy using pytest, maintaining 80\%+ unit test coverage to ensure code quality and operational reliability.
 
-    \end{rSubsection}
-	%------------------------------------------------
-	\begin{rSubsection}{Secured Transportation Services}{October 2024 - January 2025}{Data Scientist}{Buford, GA}
-        \item Developing a custom in-house Large Language Model (LLM) tailored for company needs.
-        \item Utilizing local LLMs fine-tuned with Low-Rank Adaptation (LoRA) and In-Context Learning techniques, including Retrieval-Augmented Generation (RAG).
-        \item Enhancing company capabilities by leveraging generative AI to improve deliverable speed and accuracy.
-        \item Implemented automation engineering solutions, reducing processing time of certain tasks from 5 hours to minutes.
     \end{rSubsection}
 	%------------------------------------------------
 
 	\begin{rSubsection}{United States Navy}{May 2023 - September 2024}{Cyber Threat Intelligence Analyst}{Pensacola, FL}
-		\item Served as a Cyber Threat Intelligence Analyst at Naval Information Operations Command - Pensacola, responsible for implementing defensive and offensive cyberspace mission tasking.
-		\item Collected and processed intelligence to generate products satisfying cyberspace intelligence requirements and essential elements of information.
-		\item Developed target packages supporting cyberspace operations and disseminated cyber intelligence information through briefings, written reports, and messages.
-        \item Deployed to Key Infrastructure and Critical Resource DODIN sites in response to intelligence on potential Advanced Persistent Threat (APT) cyber activity, providing targeted defense and safeguarding these critical networks.
-		\item Utilized the HELK stack (Hunting, Elasticsearch, Logstash, Kibana) to identify and remediate potential malicious cyber activity on numerous Department of Defense (DoD) Networks.
-	    \item Applied advanced Artificial Intelligence techniques, including Natural Language Processing and Machine Learning, to enhance network traffic anomaly detection and strengthen cybersecurity measures within the Department of Defense. These efforts led to a 90\% reduction in processing time, significantly improving defense against malicious actors in the cyber domain.
+        \item Deployed on two incident response missions to critical DoD infrastructure sites as part of a cyber threat hunt team, identifying and resolving over 50 Indicators of Compromise (IoCs) in response to Advanced Persistent Threat (APT) activity targeting key DoD networks.
+		\item Utilized the HELK stack (Hunting, Elasticsearch, Logstash, Kibana) to identify and remediate malicious cyber activity across numerous Department of Defense networks, enhancing threat detection and incident response capabilities.
+	    \item Applied advanced Artificial Intelligence techniques, including Natural Language Processing and Machine Learning, to enhance network traffic anomaly detection and strengthen cybersecurity measures, achieving a 90\% reduction in processing time and significantly improving defense against malicious actors in the cyber domain.
 
 	\end{rSubsection}
 	%------------------------------------------------
-    \newpage
 	\begin{rSubsection}{United States Navy}{October 2018 - May 2023}{GEOINT Analyst}{Washington, D.C.}
-		\item Attached to Fleet Intelligence Detachment, D.C. (FID DC) as a Geospatial Intelligence Analyst.
-		\item Utilized imagery analysis to create enhanced imagery products adhering to National Geospatial Intelligence (NGA) standards through analyzing overhead and aerial imagery developed by photographic and electronic means.
-		\item Deployed aboard the USS CARL VINSON CVN-70 (July 2021 - Early 2022) supporting Carrier Strike Group One (CSG-1) and multi-national operations afloat.
-		\item Developed data analysis tools using Python that provide a faster and more robust way to filter, organize, and display data collected daily via overhead sensors.
-		\item Utilized QGIS software with Python to display geospatial trend analysis of the maritime and air domain for the area of responsibility of CSG-1 resulting in an unprecedented level of awareness that is now being adopted fleet-wide.
-		\item Created and maintained an SQL database fusing data from four on-board intelligence watch floors to establish better cohesion and communication of data across the intelligence enterprise.
-		\item Assisted in the development of data engineering and data analysis tool sets for the Navy’s Project Overmatch program.
-        \item Served as the first tactical afloat data scientist, pioneering the integration of data science on deployment to enhance decision-making and operational productivity. This role catalyzed the 'Data Science at Sea' initiative, now being adopted fleet-wide to drive data-informed strategies across naval operations.
-        \item Contributed to the Data Science Working Group for Naval Information Forces, advocating for improved data literacy and specialized training to support tactical data scientists in operational settings.
-		\item Served as departmental Leading Petty Officer for Training directly responsible for managing a team of 7 sailors who provided qualification and pre-deployment training to over 100 sailors.
+		\item Developed automated data analysis tools using Python to filter, organize, and display sensor data, significantly improving processing speed and data accessibility for intelligence analysts.
+		\item Built geospatial analysis platform integrating QGIS with Python for maritime and air domain trend analysis, delivering unprecedented situational awareness capabilities that were subsequently adopted fleet-wide.
+		\item Designed and maintained SQL database fusing data from four intelligence watch floors aboard USS CARL VINSON CVN-70, establishing unified data access and communication across the intelligence enterprise.
+		\item Contributed to data engineering and analytics toolset development for the Navy's Project Overmatch program, pioneering tactical data science integration afloat and catalyzing the fleet-wide 'Data Science at Sea' initiative.
 	\end{rSubsection}
 
 	%------------------------------------------------
 
 
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
-\begin{rSection}{Certifications}
-	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
-		CompTIA & Cybersecurity Analyst (CySA+)                                     \\
-		National Geospatial-Intelligence Agency & GEOINT Professional Certification - Fundamental, Imagery Analysis\\
-		Department of Defense & Intelligence Fundamentals Professional Certification\\
-        Clearance & Current TS/SCI (with Counterintelligence Polygraph) \\
-	\end{tabular}
-\end{rSection}
-
-
-\begin{rSection}{Technical Strengths}
-
-	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
-		Computer Languages            & Python, R, JavaScript, Bash, Rust                                     \\
-		Data Analysis / Visualization & Pandas, Numpy, Matplotlib, Plotly, Dash, Seaborn, ggplot, D3, QGIS          \\
-		Data Engineering              & MySQL, PostgreSQL, Redis, Databricks, Logstash \\
-		Data Streaming / Search       & Kafka, Kibana, Elasticsearch \\
-		Machine Learning Frameworks   & Tensorflow, Keras, Scikit-learn, PyTorch                                       \\
-		Signal Processing / Advanced Analytics & Particle Filters, Kalman Filters, JPDA, Multi-hypothesis Tracking \\
-		Cloud / DevOps                & Kubernetes, Docker, Docker Compose \\
-		Back-end Web Development      & Django, Flask, FastAPI, Actix-Web            \\
-        Front-end Web Development     & HTML, CSS, React, Vue \\
-	\end{tabular}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -113,6 +70,37 @@
 	Bachelor of Science: Civil Engineering
 
 \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATIONS & TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Certifications}
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		CompTIA & Cybersecurity Analyst (CySA+)                                     \\
+		National Geospatial-Intelligence Agency & GEOINT Professional Certification - Fundamental, Imagery Analysis\\
+		Department of Defense & Intelligence Fundamentals Professional Certification\\
+        Clearance & Current TS/SCI (with Counterintelligence Polygraph) \\
+	\end{tabular}
+\end{rSection}
+
+
+\begin{rSection}{Technical Strengths}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} p{0.55\textwidth} @{}}
+		Computer Languages            & Python, R, JavaScript, Bash, Rust                                     \\
+		Data Analysis / Visualization & Pandas, Numpy, Matplotlib, Plotly, Dash, Seaborn, ggplot, D3, QGIS          \\
+		Data Engineering              & MySQL, PostgreSQL, Redis, Databricks, Logstash \\
+		Data Streaming / Search       & Kafka, Kibana, Elasticsearch \\
+		AI / LLM Integration          & OpenAI API, Anthropic Claude API, Model Context Protocol (MCP), Prompt Engineering \\
+		Machine Learning Frameworks   & Tensorflow, Keras, Scikit-learn, PyTorch                                       \\
+		Signal Processing / Advanced Analytics & Particle Filters, Kalman Filters, JPDA, Multi-hypothesis Tracking \\
+		Cloud / DevOps                & AWS (GovCloud), GCP, Kubernetes, Docker, Docker Compose \\
+		CI/CD \& Testing              & Jenkins, pytest, Anchore, OWASP, SonarQube \\
+		Back-end Web Development      & Django, Flask, FastAPI, Actix-Web            \\
+        Front-end Web Development     & HTML, CSS, React, Vue \\
+	\end{tabular}
+\end{rSection}
+
 %----------------------------------------------------------------------------------------
 %	EXAMPLE SECTION
 %----------------------------------------------------------------------------------------
